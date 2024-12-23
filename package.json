@@ -1,0 +1,43 @@
+{
+  "name": "@longnc/themartec-nodemailer-sendgrid-transport",
+  "version": "1.0.0",
+  "description": "SendGrid transport for Nodemailer",
+  "main": "src/sendgrid-transport.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/themartec/nodemailer-sendgrid-transport.git"
+  },
+  "keywords": [
+    "Nodemailer",
+    "SendGrid"
+  ],
+  "author": "Long Nguyen <long.nguyen@themartec.com> (themartec.com)",
+  "contributors": [
+    {
+      "name": "Eddie Zaneski"
+    },
+    {
+      "name": "Will Smidlein",
+      "email": "ws@sendgrid.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "sendgrid": "^5.2.3"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "bugs": {
+    "url": "https://github.com/themartec/nodemailer-sendgrid-transport/issues"
+  },
+  "homepage": "https://github.com/themartec/nodemailer-sendgrid-transport#readme"
+}
